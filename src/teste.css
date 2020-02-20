@@ -1,0 +1,63 @@
+element.style {
+    margin: 0px;
+    padding: 0px 0px 45px;
+    background-color: transparent;
+}
+
+.x-section {
+    position: relative;
+    margin: 0 0 1.313em;
+    padding: 45px 0;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.entry-header, .entry-content {
+    font-size: 1rem;
+}
+body, input, button, select, textarea {
+    font-family: "Lato",sans-serif;
+}
+body {
+    font-style: normal;
+    font-weight: 400;
+    color: #848484;
+    background-color: hsl(0,0%,100%);
+}
+body {
+    line-height: 1.7;
+}
+
+
+html {
+    font-size: 15px;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+.x-section:before, .x-section:after {
+    content: " ";
+    display: table;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.x-section:after {
+    clear: both;
+}
+.x-section:before, .x-section:after {
+    content: " ";
+    display: table;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
