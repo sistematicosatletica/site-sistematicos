@@ -1,21 +1,11 @@
 import React, { Component } from 'react'
 import {
-    Button,
-    Container,
     Divider,
     Grid,
     Header,
-    Icon,
     Image,
-    List,
-    Menu,
-    Group,
-    Responsive,
     Segment,
     Card,
-    Form,
-    Sidebar,
-    Visibility,
 } from 'semantic-ui-react'
 import * as img from './img/contato.PNG'
 import { Carousel } from 'antd';

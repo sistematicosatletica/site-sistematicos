@@ -4,11 +4,7 @@ import {
     Grid,
     Header,
     Segment,
-    Card,
-    Image
-} from 'semantic-ui-react'
-import * as img from './img/contato.PNG'
-import { Carousel } from 'antd';
+    Card} from 'semantic-ui-react'
 import futsal from './img/produtos/camisa-futsal.jpg'
 import torcedor from './img/produtos/camisa-torcedor.png'
 import caneca from './img/produtos/caneca.jpg'

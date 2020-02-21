@@ -7,7 +7,6 @@ import {
     Segment,
     Card
 } from 'semantic-ui-react'
-import * as img from './img/contato.PNG'
 import { Carousel } from 'antd';
 import handebol1 from './img/galeria/handebol/1.jpeg'
 import handebol2 from './img/galeria/handebol/2.jpeg'

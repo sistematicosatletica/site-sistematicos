@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
-import ReactDOM from 'react-dom'
 import {
     Button,
     Container,
@@ -13,9 +12,7 @@ import {
     Segment,
     Sidebar,
     Visibility,
-    GridColumn,
 } from 'semantic-ui-react'
-import { Link } from 'react-router-dom'
 import 'antd/dist/antd.css';
 import './body.css';
 import { Carousel } from 'antd';
@@ -23,7 +20,7 @@ import escudo from './img/escudo.png';
 import fundacao from './img/fundacao/01.jpg'
 import fundacao2 from './img/fundacao/02.jpg'
 import diretoria from './img/Diretoria.png'
-import backInicial from './img/13.jpg';
+import backInicial from './13.jpg';
 import img from '../src/img/parceiros/01.png'
 import img2 from '../src/img/parceiros/02.png'
 import img3 from '../src/img/parceiros/03.png'
@@ -97,7 +94,6 @@ class DesktopContainer extends Component {
 
     render() {
         const { children } = this.props
-        const { fixed } = this.state
         return (
 
             <Responsive getWidth={getWidth} minWidth={Responsive.onlyTablet.minWidth}>
@@ -295,8 +291,6 @@ class MobileContainer extends Component {
     handleToggle = () => this.setState({ sidebarOpened: true })
 
     render() {
-        const { children } = this.props
-        const { sidebarOpened } = this.state
 
         return (
 

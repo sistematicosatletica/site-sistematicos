@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 import { Button, Form, Grid, Header, Image, Message, Segment, Container } from 'semantic-ui-react'
-import { Link, withRouter } from "react-router-dom";
-import { Redirect } from 'react-router-dom'
+import { withRouter } from "react-router-dom";
 import api from "./services/api";
 import { loginUser } from "./services/auth";
 import imgLogin from './img/login.png'
-import { throws } from 'assert';
 class LoginForm extends Component {
   state = {
     login: '',

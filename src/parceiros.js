@@ -2,19 +2,10 @@ import React, { Component } from 'react';
 import img from '../src/img/parceria1.jpg'
 import img2 from '../src/img/parceria2.jpg'
 import {
-    Button,
-    Container,
-    Divider,
     Grid,
     Header,
-    Icon,
     Image,
-    List,
-    Menu,
-    Responsive,
     Segment,
-    Sidebar,
-    Visibility,
 } from 'semantic-ui-react'
 export class parceiros extends Component {
     render() {
